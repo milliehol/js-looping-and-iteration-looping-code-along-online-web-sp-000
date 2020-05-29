@@ -9,9 +9,10 @@ function writeCards(names, event) {
  return thankYouCards
 }
 
-function countDown(number) {
-  for (let i = number+1; i > 0; i--) {
-    console.log(i);
+function countdown( countdown ) {
+  while ( countdown > 0 ) {
+    console.log( countdown );
+    countdown -= 1;
   }
- console.log(i)
+  console.log( countdown );
 }

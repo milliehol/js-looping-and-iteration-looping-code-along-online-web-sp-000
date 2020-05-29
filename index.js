@@ -13,5 +13,5 @@ function countDown(number) {
   for (let i = number+1; i > 0; i--) {
     console.log(i);
   }
- console.log
+ console.log(i)
 }
